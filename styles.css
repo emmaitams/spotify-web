@@ -1,0 +1,464 @@
+body {
+    background-color: #000;
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 250vh;
+}
+
+p {
+    color: #fff;
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+h2 {
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+h2:hover {
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#search_1 {
+    color: #a8a8a8;
+    cursor: pointer;
+
+}
+#search_1:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+h3 {
+    color: #fff;
+}
+
+.spotify__home {
+    background-color: #101010;
+    width: 23%;
+    border-radius: 10px;
+    height: 26vh;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 0px;
+    margin-left: 2px;
+    position: fixed;
+}
+
+#spotify {
+    margin-top: 8px;
+    margin-left: 23px;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+#home {
+    margin-top: 10px;
+    margin-left: 23px;
+    font-size: 20px;
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+
+#search {
+    margin-top: 13px;
+    margin-left: 23px;
+    font-size: 20px;
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+
+.library {
+    background-color: #101010;
+    width: 23%;
+    border-radius: 10px;
+    height: 69vh;
+    position: absolute;
+    
+    margin-top: 172px;
+    margin-left: 2px;
+    position: fixed;
+}
+
+.playlist {
+    background-color: #202020;
+    width: 96%;
+    border-radius: 10px 10px 0px 0px;
+    height: 14vh;
+    position: absolute;
+    font-size: 15px;
+    
+}
+
+.bottom {
+    margin-top: 150px;
+}
+
+#play {
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 19px;
+}
+#play1 {
+    margin-left: 20px;
+}
+
+#lib {
+    margin: 30px 20px;
+}
+/* 
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-gap: 0px;
+    font-size: 11px;
+    
+    color: #a8a8a8;
+   
+} */
+
+.bottom__text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    font-size: 11px;
+}
+
+/* width: 94%; */
+.bottom p {
+    color:#a8a8a8
+}
+
+p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.english {
+    border: 1px solid #fff;
+    width: 31%;
+    border-radius: 30px;
+    height: 7%;
+    margin-top: 28px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.english p {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#globe {
+    margin: 7px 6px 7px 2px;
+    font-size: 15px;
+}
+
+#stack {
+    margin-right: 30px;
+}
+
+#plus {
+    margin-left: 120px;
+}
+
+.spotify__main {
+    background-color:#000;;
+    width: 100%;
+    border-radius: 10px;
+    height: 15vh;
+    margin-top: -9px;
+    margin-left: 320px;
+    position: fixed;
+    z-index: 100; 
+    top: 0;
+    left: 0;
+    color: #000;
+}
+
+.navbar {
+    background-color:	#080808;
+    width: 75%;
+    /* width: 1014px; */
+    border-radius:10px 10px 0px 0px;
+    height: 12vh;
+    margin-top: 10px;
+    margin-left: 11px;
+    position: fixed;
+    z-index: 100; 
+    top: 0;
+}
+.spotify__playlists {
+    background: linear-gradient(#202020 0%, #202020 5%, #101010 34%, #080808 100%);
+    /* background-color: #101010;
+    background-color: #202020; */
+    height:598px;
+    width: 75%;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 323px;
+    overflow:auto;
+    position: fixed;
+}
+
+#gt {
+    font-size: 20px;
+    color: #a8a8a8;
+    padding: 1px;
+    background-color: #000;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin-left: 0px;
+    margin-right: 680px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#lt {
+    font-size: 20px;
+    color: #a8a8a8;
+    padding: 1px;
+    background-color: #000;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.navbar h3 {
+    display: flex;
+    float: right;
+    margin-top: 25px;
+    margin-right: 55px;
+    text-align: center;
+    
+}
+
+#sign {
+    margin-right: 26px;
+    color: #a8a8a8;
+    font-size: 15px;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 15px;
+    width: 9%;
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.spotify__playlists2 {
+    background-color:aqua;
+    height: 11vh;
+    width: 76%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -300px;
+    margin-left: 323px;
+    position: fixed;
+    color: #000;
+    z-index: 500;
+
+}
+
+.spotify__playlists3 {
+    background-color: #000;
+    height: 5vh;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: -50px;
+    margin-left: 323px;
+    position: fixed;
+    color: #000;
+   
+}
+
+#play_head {
+    margin-top: 85px;
+    margin-left: 35px;
+    font-size: 25px;
+}
+
+.boxes {
+    display: flex;
+    
+}
+
+.boxes1 {
+    display: flex;
+    
+}
+
+.boxes .box {
+    width: 50%;
+    background-color: #181818;
+    margin: 8px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+.boxes1 .box2 {
+    width: 18%;
+    background-color: #181818;
+    margin: 8px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+.boxes .box:hover {
+    background-color: #282828;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-out;
+    cursor:pointer;
+}
+
+.boxes1 .box2:hover {
+    background-color: #282828;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+#text1 {
+   font-size: 15px;
+   margin-top: -5px;
+   font-weight: bold;
+}
+#text2 {
+    font-weight: 50;
+    color: #a8a8a8;
+    margin-top: -10px;
+    font-size: 13px;
+
+}
+
+#box_2 {
+    margin-left: 40px;
+}
+
+.boxes .box img {
+    width: 83%;
+    height: 60%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.boxes1 .box2 img {
+    width: 83%;
+    height: 60%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+#box_one {
+    margin-left: 40px;
+}
+
+.line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 15px;
+    width: 60%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.line p {
+    margin: 10px;
+    color: #a8a8a8;
+}
+
+.line p:hover {
+    text-decoration: underline;
+}
+
+#first{
+    color: #fff;
+    margin-top: 120px;
+    cursor:auto;
+}
+
+#first:hover{
+    color: #fff;
+    margin-top: 120px;
+    cursor:auto;
+    text-decoration: none;
+}
+
+/* #left {
+    margin-left: 0px;
+}
+
+#first1 {
+    margin-top: 120px;
+    margin-left: 80px;
+    color: #fff;
+} */
+
+.socials {
+    display: flex;
+    color: #fff;
+    
+    /* margin-top: -100px; */
+    float: right;
+    /* width: 30%; */
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 92px;
+    padding: 10px;
+}
+
+#socials1 {
+    margin: 8px;
+    color: #fff;
+    background-color:#181818;
+    padding: 13px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+    
+hr {
+    margin-top: 40px;
+   margin-left: 40px;
+   border: 0.1px solid #282828;
+   margin-right: 35px;
+}
+
+#copy {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    color: 	#a8a8a8;
+    font-size: 13px;
+}
+
